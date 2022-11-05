@@ -1,8 +1,10 @@
 import React from 'react';
+import pic from '../../assets/images/profile.png'
 
-const profileImage=()=>
+const ProfileImage=()=>
 {
-return <div><image src='./public/profile.png'/></div>;
+return <div><img src={pic} /></div>;
 }
 
-export default profileImage; 
+export default ProfileImage;
+
